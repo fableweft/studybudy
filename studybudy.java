@@ -38,7 +38,7 @@ public class studybudy {
             //getting topics to be put under each subject entered    
             topicInputString = " ";
             while (topicInputString.length() > 0){
-              System.out.println("Enter topics under " + subInputString + ":");               //putting topics into an arraylist under each subject input 
+              System.out.println("Enter topics under " + subInputString + ":");        //putting topics into an arraylist under each subject input 
               topicInputString = sc.nextLine();
               if(topicInputString != ""){
                 subjects.get(subInputString).add(topicInputString);
